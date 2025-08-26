@@ -1,0 +1,14 @@
+[mqtt]
+# The IP address of the MQTT broker
+broker = 
+
+# Authentication for the MQTT broker
+# Leave both empty if your broker does not require authentication
+user = 
+password = 
+
+# The topic path to publish to prometheus (can use wildcards)
+path = stat/#
+
+# How many seconds between each polling of MQTT
+refresh_time = 10
