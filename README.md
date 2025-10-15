@@ -1,6 +1,5 @@
 # mqtt-to-prometheus
 
-This script allows you to control the brightness and power state of a Rasberry Pi's Screen through
 This script publishes data from [MQTT](https://mqtt.org/) to [Prometheus](https://prometheus.io/), an open source time-series database
 
 - Utilizes the [`flask-mqtt`](https://github.com/stlehmann/Flask-MQTT) python package as an extention to [`Flask`](https://github.com/pallets/flask)
